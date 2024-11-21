@@ -29,6 +29,10 @@ Event.init(
       type: DataTypes.DATE,
       allowNull: false,
     },
+    venue: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     image: {
       type: DataTypes.STRING,
       allowNull: false,
