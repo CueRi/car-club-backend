@@ -22,6 +22,10 @@ Event.init({
         type: sequelize_1.DataTypes.DATE,
         allowNull: false,
     },
+    venue: {
+        type: sequelize_1.DataTypes.STRING,
+        allowNull: false,
+    },
     image: {
         type: sequelize_1.DataTypes.STRING,
         allowNull: false,

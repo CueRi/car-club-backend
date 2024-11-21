@@ -6,6 +6,7 @@ class Event extends Model {
   public title!: string;
   public description!: string;
   public date!: Date;
+  public venue!: string;
   public image!: string;
 }
 
