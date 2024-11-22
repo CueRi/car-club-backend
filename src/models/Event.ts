@@ -6,6 +6,7 @@ class Event extends Model {
   public title!: string;
   public description!: string;
   public date!: Date;
+  public TIME!: TimeRanges;
   public venue!: string;
   public image!: string;
 }
@@ -27,6 +28,10 @@ Event.init(
     },
     date: {
       type: DataTypes.DATE,
+      allowNull: false,
+    },
+    time: {
+      type: DataTypes.TIME,
       allowNull: false,
     },
     venue: {
